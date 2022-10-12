@@ -1,3 +1,6 @@
+.body{
+    font-family: "Roboto", sans-serif; 
+}
 .logo{
     font-family: "Raleway"; font-size: 26px;
     color: rgba(0, 0, 0, 1);
@@ -7,8 +10,11 @@
     color: rgba(33, 150, 243, 1)   
 }
 .navigation{
-    font-family: "Roboto"; font-weight: 500; font-size: 14px; 
+    font-weight: 500; font-size: 14px; 
     color: rgba(33, 33, 33, 1);
+}
+.agency{
+    color: rgba(33, 33, 33, 1); text-decoration: none;
 }
 .agency:hover, .agency:focus{
     color: rgba(33, 150, 243, 1);
@@ -23,7 +29,7 @@
     color: rgba(33, 150, 243, 1);
 }
 .telephone-mail-address{
-    font-family: "Roboto"; font-weight: 500; font-size: 14px; 
+    font-weight: 500; font-size: 14px; 
 }
 .mail-address{
     text-decoration: none;  color: rgba(117, 117, 117, 1)
@@ -38,25 +44,25 @@
     color: rgba(33, 150, 243, 1);
 }
 .button1{
-    font-family: "Roboto"; font-weight: 700; font-size: 16px; color: rgba(255, 255, 255, 1); border: 0; background-color: rgba(33, 150, 243, 1);
+    font-family: inherit; 700; font-size: 16px; color: rgba(255, 255, 255, 1); border: 0; background-color: rgba(33, 150, 243, 1);
 }
 .buttons{
-    font-family: "Roboto"; font-weight: 500; font-size: 16px; border: 0; background-color: rgba(255, 255, 255, 1); cursor: pointer;
+    font-family: inherit; font-weight: 500; font-size: 16px; border: 0; background-color: rgba(255, 255, 255, 1); cursor: pointer;
 }
 .buttons:hover, .buttons:focus{
     background-color: rgba(33, 150, 243, 1); color: rgba(255, 255, 255, 1);
 }
 .figcap-title{
-    font-family: "Roboto"; font-weight: 700; font-size: 18px; letter-spacing: 0.06em; color: rgba(33, 33, 33, 1);
+    font-weight: 700; font-size: 18px; letter-spacing: 0.06em; color: rgba(33, 33, 33, 1);
 }
 .figcap-text{
-    font-family: "Roboto"; font-weight: 400; font-size: 16px; letter-spacing: 0.03em; color: rgba(117, 117, 117, 1);
+    font-weight: 400; font-size: 16px; letter-spacing: 0.03em; color: rgba(117, 117, 117, 1);
 }
 .footers{
     background-color: rgba(47, 48, 58, 1);
 }
 .adres{
-    font-family: "Roboto"; font-weight: 400; font-size: 14px; font-style: normal; color: rgba(255, 255, 255, 1);
+    font-weight: 400; font-size: 14px; font-style: normal; color: rgba(255, 255, 255, 1);
 }
 .mail-adrress-underline{
 color: rgba(117, 117, 117, 1)
@@ -65,17 +71,20 @@ color: rgba(117, 117, 117, 1)
     color: rgba(33, 150, 243, 1);
 
 }
+.background-h1{
+    background-color: rgba(47, 48, 58, 1);
+}
 .title-h1{
-    background-color: rgba(47, 48, 58, 1); font-family: "Roboto"; font-weight: 900; font-size: 44px; letter-spacing: 0.06em; text-align: center; color: rgba(255, 2555, 255, 1);
+    font-weight: 900; font-size: 44px; letter-spacing: 0.06em; text-align: center; color: rgba(255, 2555, 255, 1);
 }
 .title-h5{
-    font-family: "Roboto"; font-weight: 700; font-size: 14px; color: rgba(33, 33, 33, 1);
+    font-weight: 700; font-size: 14px; color: rgba(33, 33, 33, 1);
 }
 .text{
-    font-family: "Roboto"; font-weight: 400; font-size: 14px; color: rgba(117, 117, 117, 1);
+    font-weight: 400; font-size: 14px; color: rgba(117, 117, 117, 1);
 }
 .title-h2{
-    font-family: "Roboto"; font-weight: 700; font-size: 36px; letter-spacing: 0.03em; text-align: center; line-height: 42px;
+    font-weight: 700; font-size: 36px; letter-spacing: 0.03em; text-align: center; line-height: 1.7;
 }
 .logo-footer{
     font-family: "Raleway"; font-size: 26px;
